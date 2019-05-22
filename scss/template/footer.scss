@@ -1,0 +1,33 @@
+footer{
+	margin-top: -33%;
+	background: url(./../image/footer_bg.png) no-repeat;
+	height: 930px;
+	position: relative;
+	z-index: -1;
+	.wraping{
+		position: absolute;
+		bottom: 10%;
+		left: 20%;
+		color: #fff;
+		display: flex;
+    justify-content: space-between;
+		.footer-left{
+			width: 50%;
+			ul{
+				display: flex;
+				li{
+					a{
+						color: #fff;
+						text-decoration: none;
+						padding-right: 40px;
+						font-size: 16px;
+					}
+				}
+			}
+		}
+		.footer-right{
+			font-size: 22px;
+			font-weight: 600;
+		}
+	}
+}

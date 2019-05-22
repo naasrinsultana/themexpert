@@ -1,0 +1,18 @@
+// Load Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+
+body {
+	font-family: 'Libre Franklin', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+$theme-bg: #FFFFFF;
+// Global Variables
+$black: #3d3d3d;
+$white: #ededed;
+$light-blue: #6fbfe8;
+$accent-orange: #d6751b;
